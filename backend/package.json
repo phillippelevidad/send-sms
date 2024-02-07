@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/express": "^5.14.0",
+    "bullmq": "^5.1.9",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "twilio": "^4.21.0"
+  }
+}
